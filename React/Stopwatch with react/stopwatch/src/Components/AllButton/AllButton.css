@@ -1,0 +1,9 @@
+.AllButton{
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  top: 350px;
+  flex-wrap: wrap;
+  column-gap: 10px;
+  row-gap: 10px;
+}

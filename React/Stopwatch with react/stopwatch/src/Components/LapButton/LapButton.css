@@ -1,0 +1,13 @@
+.LapButton{
+  border-radius: 10px;
+  width: 200px;
+  height:80px;
+  font-size: larger;
+  background-color: #74b9ff;
+  box-shadow: 0 3px 30px rgb(0 0 0 / 0.2);
+}
+
+.LapButton:hover{
+  background-color: #0984e3;
+  color: #fff;
+}
