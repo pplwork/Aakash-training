@@ -1,7 +1,7 @@
 import './App.css';
 import React, { useReducer, useContext} from 'react';
-import ComponentA from './Components/ReduceComponent/ComponentA';
-import ComponentB from './Components/ReduceComponent/ComponentB';
+import Counter from './Components/Custom Hooks/Counter/Counter';
+
 
 export const CountContext = React.createContext()
 
@@ -26,12 +26,7 @@ function App() {
   return (
     <div className="App">
       <h1>Hello</h1>
-      
-      <CountContext.Provider value={{countState:count, countDispatch:dispatch}}>
-        <div>Count: {count}</div>
-        <ComponentA/>
-        <ComponentB />
-      </CountContext.Provider>  
+      <Counter />
     </div>
   );
 }
